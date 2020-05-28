@@ -1,0 +1,67 @@
+<template>
+    <div id="openingstijden">
+        <div id="title">Openingstijden</div>
+        <div class="table">
+            <div class="row" v-for="tijd in tijden" v-bind:key="tijd.dag">
+                <div class="dag cell">{{tijd.dag}}</div>
+                <div class="open cell">{{tijd.open}}</div>
+                <div class="divider cell"> -</div>
+                <div class="sluit cell">{{tijd.sluit}}</div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+    export default {
+        name: "Openingstijden",
+        data() {
+            return {
+                tijden: [
+                    {dag: "Maandag", open: "15:00", sluit: "17:00"},
+                    {dag: "Dinsdag", open: "15:00", sluit: "17:00"},
+                    {dag: "Woensdag", open: "15:00", sluit: "17:00"},
+                    {dag: "Donderdag", open: "15:00", sluit: "17:00"},
+                    {dag: "Vrijdag", open: "15:00", sluit: "17:00"},
+                    {dag: "Zaterdag", open: "15:00", sluit: "17:00"},
+                    {dag: "Zondag", open: "15:00", sluit: "17:00"}]
+            }
+        }
+    }
+</script>
+
+<style scoped>
+    #openingstijden {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+
+        border: 1px solid black;
+        text-align: start;
+        padding: 15px;
+        margin: 0;
+    }
+
+    .table{
+        display: table;
+        padding: 0;
+        margin: 0;
+    }
+    .row {
+        display: table-row;
+    }
+
+    .cell:not(:first-child) {
+        display: table-cell;
+        padding-left: 15px;
+    }
+
+
+    .divider {
+
+    }
+
+    .dag {
+        font-weight: bold;
+    }
+</style>
