@@ -18,13 +18,13 @@
         data() {
             return {
                 tijden: [
-                    {dag: "Maandag", open: "15:00", sluit: "17:00"},
-                    {dag: "Dinsdag", open: "15:00", sluit: "17:00"},
-                    {dag: "Woensdag", open: "15:00", sluit: "17:00"},
-                    {dag: "Donderdag", open: "15:00", sluit: "17:00"},
-                    {dag: "Vrijdag", open: "15:00", sluit: "17:00"},
-                    {dag: "Zaterdag", open: "15:00", sluit: "17:00"},
-                    {dag: "Zondag", open: "15:00", sluit: "17:00"}]
+                    {dag: "Maandag", open: "11:00", sluit: "21:00"},
+                    {dag: "Dinsdag", open: "11:00", sluit: "21:00"},
+                    {dag: "Woensdag", open: "11:00", sluit: "21:00"},
+                    {dag: "Donderdag", open: "11:00", sluit: "21:00"},
+                    {dag: "Vrijdag", open: "11:00", sluit: "21:00"},
+                    {dag: "Zaterdag", open: "11:00", sluit: "21:00"},
+                    {dag: "Zondag", open: "11:00", sluit: "21:00"}]
             }
         }
     }
