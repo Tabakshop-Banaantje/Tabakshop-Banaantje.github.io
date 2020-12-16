@@ -38,13 +38,15 @@
         margin-bottom: 10px;
     }
     #gegevens{
-        flex-grow: 1;
-        display: flex;
-        flex-direction: column;
-        border: 1px solid black;
-        text-align: start;
-        padding: 15px;
-        margin: 0;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid black;
+      border-radius: 10px;
+      background: #000000c2;
+      color: white;
+      padding: 15px;
+      margin: 0;
     }
     .gegeven {
         font-weight: bold;
