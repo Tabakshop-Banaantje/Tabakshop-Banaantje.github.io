@@ -30,7 +30,7 @@ body {
   margin: auto;
   justify-content: center;
   min-height: 660px;
-
+  min-width: 500px;
 }
 
 #background {
