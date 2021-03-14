@@ -20,10 +20,6 @@
                         titel: "Adres",
                         waardes: ["Polderlaan 9B",
                             "3074 MA Rotterdam"]
-                    },
-                    {
-                        titel: "Telefoonnummer",
-                        waardes: ["0684248827"]
                     }
                 ]
             }
